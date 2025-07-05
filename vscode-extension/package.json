@@ -1,0 +1,41 @@
+{
+  "name": "cli-tool-suite-helper",
+  "displayName": "CLI Tool Suite Helper",
+  "description": "VS Code extension to show and drag CLI Tool Suite commands into the terminal.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": ">=1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:cliToolSuite.commandsView"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "cliToolSuite.commandsView",
+          "name": "CLI Tool Suite Commands"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "@types/vscode": "^1.70.0",
+    "typescript": "^5.0.0",
+    "vsce": "^2.15.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cli-tool-suite-helper"
+  }
+}
