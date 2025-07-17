@@ -15,8 +15,8 @@ A minimal yet handy Visual Studio Code extension that displays your recent Power
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/cli-tool-suite-helper
-   cd cli-tool-suite-helper
+   git clone https://github.com/yourusername/cli-tools
+   cd cli-tools
 ````
 
 2. Install dependencies and build the extension:
