@@ -17,6 +17,8 @@ A minimal yet handy Visual Studio Code extension that displays your recent Power
    ```bash
    git clone https://github.com/yourusername/cli-tools
    cd cli-tools
+   ```
+
 ````
 
 2. Install dependencies and build the extension:
@@ -42,7 +44,8 @@ A minimal yet handy Visual Studio Code extension that displays your recent Power
 
 ## 📸 Screenshot
 
-> *(Insert a screenshot or GIF demonstrating the sidebar and click functionality)*
+> ![Not Available](/assests/1.png)
+> ![Not Available](/assests/2.gif)
 
 ## 📍 Roadmap
 
@@ -56,3 +59,4 @@ A minimal yet handy Visual Studio Code extension that displays your recent Power
 
 Pull requests and feature suggestions are welcome. Open an issue to discuss improvements.
 
+````
