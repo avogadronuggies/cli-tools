@@ -44,8 +44,8 @@ A minimal yet handy Visual Studio Code extension that displays your recent Power
 
 ## 📸 Screenshot
 
-> ![Not Available](/assests/1.png)
-> ![Not Available](/assests/2.gif)
+> ![alt text](/assests/1.png)
+> ![alt text](/assests/2.gif)
 
 ## 📍 Roadmap
 
