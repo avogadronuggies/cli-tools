@@ -3,7 +3,7 @@
   "displayName": "CLIPro",
   "publisher": "vijetnaik21",
   "description": "VS Code extension to show and drag CLI Tool Suite commands into the terminal.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": ">=1.70.0"
   },
@@ -19,7 +19,8 @@
       "explorer": [
         {
           "id": "cliToolSuite.commandsView",
-          "name": "CLI Tool Suite Commands"
+          "name": "CLI Tool Suite Commands",
+          "icon": "./images/cli-icon.svg"
         }
       ]
     }
